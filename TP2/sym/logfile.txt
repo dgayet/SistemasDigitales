@@ -1,0 +1,21 @@
+../../src/ieee/v93/numeric_std-body.vhdl:1613:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1613:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1710:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1710:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1613:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1613:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@10ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@10ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@30ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@30ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../src/testbench_mult.vhd:119:13:@5030ns:(assertion warning): Error: Salida del DUV no coincide con referencia (salida del duv = 267166881, salida del archivo = 266338303)Errores= 1 en la linea 249
+../src/testbench_mult.vhd:119:13:@9510ns:(assertion warning): Error: Salida del DUV no coincide con referencia (salida del duv = 530481, salida del archivo = 0)Errores= 2 en la linea 473
+../src/testbench_mult.vhd:119:13:@9750ns:(assertion warning): Error: Salida del DUV no coincide con referencia (salida del duv = 267497596, salida del archivo = 266338303)Errores= 3 en la linea 485
+../src/testbench_mult.vhd:119:13:@9970ns:(assertion warning): Error: Salida del DUV no coincide con referencia (salida del duv = 1758045, salida del archivo = 0)Errores= 4 en la linea 496
+../src/testbench_mult.vhd:119:13:@18490ns:(assertion warning): Error: Salida del DUV no coincide con referencia (salida del duv = 268844440, salida del archivo = 268435456)Errores= 5 en la linea 922
+../src/testbench_mult.vhd:119:13:@19630ns:(assertion warning): Error: Salida del DUV no coincide con referencia (salida del duv = 267574940, salida del archivo = 266338303)Errores= 6 en la linea 979
+../src/testbench_mult.vhd:94:9:@20050ns:(assertion failure): Fin de la simulacion
+ghdl:error: assertion failed
+in process .pf_testbench(pf_testbench_arq).test_sequence
+  from: process work.pf_testbench(pf_testbench_arq).test_sequence at testbench_mult.vhd:94
+ghdl:error: simulation failed

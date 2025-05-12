@@ -1,0 +1,25 @@
+=> Checking if BETA version / BETA license applies ... [NO]
+=> Checking Rootfolders, Environment Variables and Home-Directory ... [NO]
+   Home: '/Users/denisegayet'
+   Env:  V4P_LICENSE_FILE='/Users/denisegayet/Documents/FIUBA/license.v4p'
+   Env:  HOME='/Users/denisegayet'
+=> Looking if trial license applies ... [NO] (trial expired; issued: 22/09/2023 00:00:00)
+=> Checking for limited free license as fallback ... [YES] (included free license added - see below)
+
+==================================================
+=== FOUND THE FOLLOWING LICENSES
+==================================================
+
+************************
+*** <ACTIVE LICENSE> ***
+************************
+*** License: Free Reduced-Feature License
+   License '' of type 'None'
+   License issued for '' at '' (email: '').
+   License issued on '2023-10-26'
+   License is AUTHENTIC and VALID.
+   License is valid until '0001-01-01', node is locked to ''.
+   License contains features: 'Limited'.
+   License supports products: 'V4p'.
+   License is LIMITED to a very basic feature-set.
+

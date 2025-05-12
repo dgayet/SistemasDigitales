@@ -1,0 +1,17 @@
+function buscar_1left(in x: (2**NE downto 0))
+
+     boolean found := false
+    variable position_1left : integer 
+
+    for i=2**NE downto 0
+        if not found then
+           position_1left = i;
+        end if  
+        if x(i) = '1' then
+          found = true
+        end if
+    endfor
+
+    return position_1left;
+
+end function

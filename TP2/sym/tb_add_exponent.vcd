@@ -1,0 +1,89 @@
+$date
+  Tue Nov  7 03:22:07 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_add_exponent $end
+$var reg 7 ! ex[6:0] $end
+$var reg 7 " ey[6:0] $end
+$var reg 1 # is_0 $end
+$var integer 32 $ index $end
+$var reg 2 % saturation[1:0] $end
+$var reg 8 & exp_diff[7:0] $end
+$var reg 7 ' ez[6:0] $end
+$scope module exp $end
+$var reg 7 ( ex[6:0] $end
+$var reg 7 ) ey[6:0] $end
+$var reg 1 * is_0 $end
+$var integer 32 + index $end
+$var reg 2 , saturation[1:0] $end
+$var reg 8 - exp_diff[7:0] $end
+$var reg 7 . ez[6:0] $end
+$var reg 9 / ex_ext[8:0] $end
+$var reg 9 0 ey_ext[8:0] $end
+$var reg 9 1 ez_pre[8:0] $end
+$var reg 7 2 aux_ez[6:0] $end
+$var reg 9 3 aux_index[8:0] $end
+$var reg 9 4 aux_exp_diff[8:0] $end
+$var reg 1 5 debug $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000111 !
+b0011001 "
+0#
+b0 $
+b00 %
+b11101110 &
+b0011001 '
+b0000111 (
+b0011001 )
+0*
+b0 +
+b00 ,
+b11101110 -
+b0011001 .
+b000000111 /
+b000011001 0
+b000011001 1
+b0011001 2
+b000000000 3
+b111101110 4
+05
+#10000000000
+b0001000 !
+b0001000 "
+b11111111111111111111111111111111 $
+b00000000 &
+b0000111 '
+b0001000 (
+b0001000 )
+b11111111111111111111111111111111 +
+b00000000 -
+b0000111 .
+b000001000 /
+b000001000 0
+b000000111 1
+b0000111 2
+b111111111 3
+b000000000 4
+15
+#20000000000
+b0 $
+b0001000 '
+b0 +
+b0001000 .
+b000001000 1
+b0001000 2
+b000000000 3

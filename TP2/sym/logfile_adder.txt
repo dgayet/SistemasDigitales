@@ -1,0 +1,18 @@
+../../src/ieee/v93/numeric_std-body.vhdl:1710:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1862:7:@0ms:(assertion warning): NUMERIC_STD."/=": metavalue detected, returning TRUE
+../../src/ieee/v93/numeric_std-body.vhdl:1710:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:1710:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@10ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@10ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@30ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee/v93/numeric_std-body.vhdl:2098:7:@30ns:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../src/testbench_adder.vhd:97:9:@20050ns:(assertion failure): Fin de la simulacion
+ghdl:error: assertion failed
+in process .pf_testbench_add(pf_testbench_add_arq).test_sequence
+  from: process work.pf_testbench_add(pf_testbench_add_arq).test_sequence at testbench_adder.vhd:97
+ghdl:error: simulation failed
