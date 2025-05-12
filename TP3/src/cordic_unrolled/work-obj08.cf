@@ -1,0 +1,13 @@
+v 4
+file . "tb_cordic_unrolled.vhd" "550d9f9ebe767254d161190ca9aedd31d70ef652" "20231204002211.937":
+  entity tb_cordic_unrolled at 1( 0) + 0 on 33;
+  architecture behavioral of tb_cordic_unrolled at 8( 105) + 0 on 34;
+file . "cordic_unrolled_top.vhd" "6de2fa8c8098435a0b1ed1447f4b6592c013ef03" "20231204002211.934":
+  entity cordic_unrolled_top at 1( 0) + 0 on 31;
+  architecture behavioral of cordic_unrolled_top at 24( 675) + 0 on 32;
+file . "add_sub_logic.vhd" "c3eaaa444594bd17acb1b59c43e68961dfa87fb8" "20231204002211.932":
+  entity add_sub at 1( 0) + 0 on 29;
+  architecture behavioral of add_sub at 22( 510) + 0 on 30;
+file . "register.vhd" "f6f45f6d5961476e12ac3705b2918c6ced31588a" "20231204002211.929":
+  entity reg2 at 1( 0) + 0 on 27;
+  architecture behavioral of reg2 at 16( 297) + 0 on 28;

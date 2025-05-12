@@ -1,0 +1,23 @@
+v 4
+file . "../src/cordic/tb_cordic.vhd" "c981e89a96cf90f0fd8eb080bdac98ff4143b248" "20231206145015.553":
+  entity tb_cordic at 1( 0) + 0 on 84;
+  architecture behavioral of tb_cordic at 8( 96) + 0 on 85;
+file . "../src/cordic/cordic_top.vhd" "d20ec488b887864b183bc0bac707ea708f647880" "20231206145015.552":
+  entity cordic_top at 1( 0) + 0 on 82;
+  architecture behavioral of cordic_top at 24( 648) + 0 on 83;
+file . "../src/cordic/pre_cordic.vhd" "22f8503f0c685aee7c90cee5f9968f4c0229e738" "20231206145015.550":
+  entity pre_cordic at 1( 0) + 0 on 80;
+  architecture behavioral of pre_cordic at 20( 503) + 0 on 81;
+file . "../src/cordic/cordic_stage.vhd" "5168f6970ae41ec6ffba98cd51b437a8a84b1661" "20231206145015.549":
+  entity cordic_stage at 1( 0) + 0 on 78;
+  architecture behavioral of cordic_stage at 24( 650) + 0 on 79;
+file . "../src/cordic/add_sub_logic.vhd" "c3eaaa444594bd17acb1b59c43e68961dfa87fb8" "20231206145015.542":
+  entity add_sub at 1( 0) + 0 on 76;
+  architecture behavioral of add_sub at 22( 510) + 0 on 77;
+file . "../src/cordic/counter_N.vhd" "8c15f019c65406fbf2084033903e82a6b7bedc46" "20231206145015.541":
+  entity counter_n at 1( 0) + 0 on 73;
+  architecture behavioral of counter_n at 17( 288) + 0 on 74;
+  architecture behavioral2 of counter_n at 37( 797) + 0 on 75;
+file . "../src/cordic/register.vhd" "ff1c7a55e5afb413e0b8f3e3877f93fabdc08950" "20231206145015.536":
+  entity reg at 1( 0) + 0 on 71;
+  architecture behavioral of reg at 15( 290) + 0 on 72;
